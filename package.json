@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "babel-core": "^6.26.2",
+    "babel-eslint": "^10.0.2",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
@@ -41,6 +42,9 @@
     }
   },
   "lint-staged": {
-    "*.js": ["./node_modules/.bin/eslint --fix", "git add"]
+    "*.js": [
+      "./node_modules/.bin/eslint --fix",
+      "git add"
+    ]
   }
 }
